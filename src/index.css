@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', 'Plus Jakarta Sans', sans-serif;
+  color-scheme: light;
+  --bg-main: #FAFAF9;
+  --text-primary: #171717;
+  --text-muted: #737373;
+  --border-color: #E5E5E5;
+  --accent-blue: #2563EB;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.15);
+  color: #2563EB;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAF9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D4D4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A3A3A3;
+}
+
+/* Code font helper */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Cursor */
+@media (min-width: 1024px) {
+  body.has-custom-cursor {
+    cursor: default;
+  }
+}
