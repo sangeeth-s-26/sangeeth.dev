@@ -105,7 +105,7 @@ export const experienceData = [
     role: "Python Full Stack Developer Intern",
     company: "Luminar Technolab",
     period: "Internship",
-    location: "Kochi, India",
+    location: "Calicut, India",
     responsibilities: [
       "Developed full-stack web applications using Python, Django, Django REST Framework, and React.js.",
       "Designed relational database schemas and optimized queries using MySQL.",
@@ -119,8 +119,8 @@ export const experienceData = [
 export const educationData = [
   {
     degree: "BCA — Bachelor of Computer Applications",
-    university: "Computer Applications University",
-    year: "2021 – 2024",
+    university: "Calicut University",
+    year: "2022 – 2025",
     details: "Core coursework focused on Software Engineering, Data Structures, Database Systems (RDBMS), Object-Oriented Programming with Python, and Web Development."
   }
 ];
